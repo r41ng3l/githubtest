@@ -1,0 +1,7 @@
+git config --global user.name "firstname lastname"
+git config --global user.email "valid email"
+got config --global color.ui auto
+git init --> create repository
+ls -a --> see hidden files
+git status --> see status of repository (changes to files and new additions)
+
