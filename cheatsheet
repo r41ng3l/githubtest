@@ -11,5 +11,8 @@ git log --> gives history of commits
 git checkout [hash] --> goes back to the commit identified by that has
 h (this will put you on different branch than "master")
 git branch --> see repo branches and in which you are
-git chechout master (or any other branch) --> this will put you on said branch
-
+git checkout master (or any other branch) --> this will put you on said branch
+git branch tmp --> create said branch
+git checkout master --> goes to master
+git merge tmp --> merge said branch with master
+git branch -d tmp --> delete said branch
