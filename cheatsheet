@@ -4,4 +4,7 @@ got config --global color.ui auto
 git init --> create repository
 ls -a --> see hidden files
 git status --> see status of repository (changes to files and new additions)
+git add . --> add all the files to stage
+git add file1 file2 file3 --> add those files to stage
+git commit -m "message" --> commit the changes with that message
 git log --> gives history of commits
