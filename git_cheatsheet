@@ -32,3 +32,10 @@ git remote add origin [link]
 git push -u origin master
 [after someone push code to repo]
 git pull origin master --> get the modified code into computer
+
+-- github pull request workflow --
+1. go to desired repo
+2. create fork
+3. clone repo
+4. make changes and add, commit and push
+5. in github --> create pull request --> comment changes (read guidelines)
