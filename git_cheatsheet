@@ -30,3 +30,5 @@ git push -u{(-upstream) only first time so github knows the main repo from which
 e.g:
 git remote add origin [link]
 git push -u origin master
+[after someone push code to repo]
+git pull origin master --> get the modified code into computer
