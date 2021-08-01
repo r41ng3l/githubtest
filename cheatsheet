@@ -1,3 +1,7 @@
+--------------------
+-- GIT CHEATSHEET --
+--------------------
+
 git config --global user.name "firstname lastname"
 git config --global user.email "valid email"
 got config --global color.ui auto
