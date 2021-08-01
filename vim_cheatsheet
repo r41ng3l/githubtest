@@ -1,0 +1,34 @@
+--------------------
+-- VIM CHEATSHEET --
+--------------------
+
+i ------------------> insert mode
+ESC ----------------> command mode
+:q  ----------------> quit
+:q! ----------------> force quit
+:wq ----------------> save quit
+:x  ----------------> save quit {writes the buffer only if changes hava been made}
+dd -----------------> deletes a line
+3dd ----------------> deletes 3 lines
+u ------------------> undo
+ctrl + r -----------> redo
+/class -------------> highligths string "class"
+>> ENTER -----------> first letter of first string match
+>> n ---------------> goes to next match
+>> shift + n -------> goes to previous match
+:%s/class/room/g ---> replace all ocurrences of "class" with "room"
+:set number --------> ennumerate the lines
+
+····················
+·· COPY AND PASTE ·· 
+····················
+
+v ------------------> select character
+>> arrow keys ------> select characters
+V ------------------> select line
+ctrl + v -----------> select rectangular block
+>> arrow keys ------> select block size
+d ------------------> cut
+y ------------------> copy
+P ------------------> paste before the cursor
+p ------------------> paste after the cursor 

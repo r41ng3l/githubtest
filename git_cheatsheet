@@ -26,4 +26,7 @@ git branch -d tmp --> delete said branch
 -- github --
 git remote -v --> see the remotes for the repo
 git remote add [name] [link] --> connect repo to github repo
-git push -u [name] [branch] --> push commit to github repo
+git push -u{(-upstream) only first time so github knows the main repo from which to pull/push} [name] [branch] --> push commit to github repo
+e.g:
+git remote add origin [link]
+git push -u origin master
