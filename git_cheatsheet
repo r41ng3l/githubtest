@@ -23,4 +23,7 @@ git checkout master --> goes to master
 git merge tmp --> merge said branch with master
 git branch -d tmp --> delete said branch
 
--- wharever --
+-- github --
+git remote -v --> see the remotes for the repo
+git remote add [name] [link] --> connect repo to github repo
+git push -u [name] [branch] --> push commit to github repo
