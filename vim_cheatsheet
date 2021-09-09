@@ -6,6 +6,7 @@ i ------------------> insert mode
 ESC ----------------> command mode
 :q  ----------------> quit
 :q! ----------------> force quit
+:w -----------------> save
 :wq ----------------> save quit
 :x  ----------------> save quit {writes the buffer only if changes hava been made}
 dd -----------------> deletes a line
@@ -19,6 +20,19 @@ ctrl + r -----------> redo
 :%s/class/room/g ---> replace all ocurrences of "class" with "room"
 :set number --------> ennumerate the lines
 
+
+···············
+·· MOVEMENT  ·· 
+···············
+
+w ------------------> move to the next beginning of word
+b ------------------> move to previous beginning of word
+h ------------------> move one left
+j ------------------> move one down
+k ------------------> move one up
+l ------------------> move one right
+A ------------------> move to the end of line
+
 ····················
 ·· COPY AND PASTE ·· 
 ····················
@@ -30,5 +44,6 @@ ctrl + v -----------> select rectangular block
 >> arrow keys ------> select block size
 d ------------------> cut
 y ------------------> copy
+yy -----------------> copy line
 P ------------------> paste before the cursor
 p ------------------> paste after the cursor 
