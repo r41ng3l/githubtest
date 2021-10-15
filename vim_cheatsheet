@@ -46,4 +46,17 @@ d ------------------> cut
 y ------------------> copy
 yy -----------------> copy line
 P ------------------> paste before the cursor
-p ------------------> paste after the cursor 
+p ------------------> paste after the cursor
+
+··························
+·· THE PRIMEAGEN SERIES ·· 
+··························
+
+-chapter 2-
+o ------------------> insert extra line below and enter insert mode
+O ------------------> insert extra line above and enter indert mode
+a ------------------> enter insert mode one character right from the cursor
+A ------------------> enter insert mode at the end of the line
+I ------------------> enter insert mode at the begining of the line
+* ------------------> goes to next occurrence of the word the cursor is in
+# ------------------> goes to the previous occurrence of the word the cursor is in
